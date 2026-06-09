@@ -6,13 +6,6 @@ interface HeroProps {
 
 export default function Hero(_:HeroProps){
   return (
-    // <section className="hero-bg pattern relative py-12 md:py-16 overflow-hidden"
-    // style={{backgroundImage: 'url(/image12.png)',
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center',
-    //   backgroundRepeat: 'no-repeat' 
-    // }}
-    // >
     <section className="hero-bg pattern relative md:min-h-0 py-12 md:py-16 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full md:hidden bg-cover bg-no-repeat"
         style={{
