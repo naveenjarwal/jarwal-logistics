@@ -52,7 +52,7 @@ export default function Footer(){
               <li><Link href="#" className="text-gray-300 hover:text-white transition-colors">Help Center</Link></li>
               <li><Link href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
               <li><Link href="#" className="text-gray-300 hover:text-white transition-colors">Terms & Conditions</Link></li>
-              <li><a href="https://wa.me/" className="text-gray-300 hover:text-white transition-colors">WhatsApp Support</a></li>
+              <li><a href="https://wa.me/919729013670" className="text-gray-300 hover:text-white transition-colors">WhatsApp Support</a></li>
             </ul>
           </div>
         </div>

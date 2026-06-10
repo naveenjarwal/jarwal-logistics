@@ -12,7 +12,27 @@ export default function Gallery(){
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">State-of-the-art facilities and professional operations supporting 30+ years of service excellence</p>
         </div>
 
+        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          <div className="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="relative overflow-hidden bg-gray-200 h-80">
+              <Image 
+                src="/office.png" 
+                alt="Jarwal Logistics Office" 
+                width={1200} 
+                height={800} 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="font-bold text-xl">Corporate Office</h3>
+                <p className="text-sm text-gray-100">Trusted Logistics Hub</p>
+              </div>
+            </div>
+          </div>
+
           <div className="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <div className="relative overflow-hidden bg-gray-200 h-80">
               <Image 
@@ -33,6 +53,23 @@ export default function Gallery(){
           <div className="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <div className="relative overflow-hidden bg-gray-200 h-80">
               <Image 
+                src="/office.jpg" 
+                alt="Jarwal Logistics Office" 
+                width={1200} 
+                height={800} 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="font-bold text-xl">Parcel Booking Counter</h3>
+                <p className="text-sm text-gray-100">Cargo Booking Desk</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="relative overflow-hidden bg-gray-200 h-80">
+              <Image 
                 src="/operations.jpg" 
                 alt="Jarwal Logistics Operations" 
                 width={1200} 
@@ -46,6 +83,7 @@ export default function Gallery(){
               </div>
             </div>
           </div>
+
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">

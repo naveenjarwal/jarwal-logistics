@@ -62,7 +62,7 @@ export default function Contact(){
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">Prefer quick communication?</p>
           <a 
-            href="https://wa.me/" 
+            href="https://wa.me/919729013670" 
             className="inline-flex items-center gap-2 px-8 py-3 bg-[#10B981] text-white font-semibold rounded-lg hover:bg-[#059669] hover:shadow-lg transform hover:scale-105 transition-all duration-300"
           >
             Chat on WhatsApp
