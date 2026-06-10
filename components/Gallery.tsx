@@ -19,7 +19,7 @@ export default function Gallery(){
           <div className="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <div className="relative overflow-hidden bg-gray-200 h-80">
               <Image 
-                src="/office.png" 
+                src="/officeHub.png" 
                 alt="Jarwal Logistics Office" 
                 width={1200} 
                 height={800} 
